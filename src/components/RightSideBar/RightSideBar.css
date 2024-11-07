@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-item-tittle {
+    @apply text-gray-700 p-4 rounded rounded-b-none bg-orange-100 font-semibold;
+  }
+  .sidebar-item-watched-tag {
+    @apply bg-gray-100 border border-gray-300 rounded px-2 py-1;
+  }
+}
