@@ -4,6 +4,8 @@ import HomeMainBar from "../../components/HomeMainBar/HomeMainBar";
 import RightSideBar from "../../components/RightSideBar/RightSideBar";
 
 const Home = () => {
+
+
   return (
     <div className="container mx-auto flex mt-4 h-screen">
       <aside className="w-1/4 bg-white p-8  shadow-2xl sidebar">
